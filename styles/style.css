@@ -93,7 +93,9 @@ fieldset {
 
 .search-form__pseudo-checkbox {
   cursor: pointer;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   vertical-align: middle;
   width: 19px;
   height: 19px;
@@ -105,9 +107,6 @@ fieldset {
   content: ' ';
   width: 15px;
   height: 15px;
-  position: absolute;
-  right: 1px;
-  top: 1px;
   background-color: white;
 }
 
