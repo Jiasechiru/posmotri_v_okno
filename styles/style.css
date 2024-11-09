@@ -275,10 +275,10 @@ fieldset {
   height: 103px;
 }
 
-.more-button {
-  width: calc(100% - 2px);
-}
-
 .error__title {
   font-weight: 400;
+}
+
+.more-button {
+  width: calc(100% - 2px);
 }
