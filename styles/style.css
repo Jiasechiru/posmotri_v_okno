@@ -153,7 +153,7 @@ fieldset {
   align-items: center;
 }
 
-.search-form__label:not(:last-child) {
+.search-form__label {
   gap: 6px;
 }
 
@@ -190,13 +190,13 @@ fieldset {
   text-decoration: underline;
 }
 
+.button:focus {
+  outline: none;
+}
+
 .button:focus-visible {
   outline: none;
   outline: 1px solid white;
-}
-
-.button:focus {
-  outline: none;
 }
 
 .search-form__submit-button {
@@ -272,8 +272,8 @@ fieldset {
   font-family: Oswald, 'Fira Sans Condensed', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
-  line-height: 100%;
-  margin-bottom: 6px;
+  line-height: calc(100% + 9px);
+  margin-bottom: 3px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
